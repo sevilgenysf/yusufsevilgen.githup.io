@@ -83,6 +83,26 @@ body {
   text-align: center;
 }
 
+.iconContainer a {
+  color: #FFF;
+}
+
+.iconContainer a i{
+  padding: 5px;
+  font-size: 20px;
+}
+
+.iconContainer a i:hover{
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.h3Section {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
 .aboutMeSection h3 {
   margin-bottom: 10px;
 }
@@ -96,4 +116,7 @@ body {
   text-decoration: none;
   list-style: none;
   color: yellow;
+}
+
+.githubLink {
 }
